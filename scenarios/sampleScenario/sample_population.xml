@@ -5,7 +5,7 @@
 
 <!-- ====================================================================== -->
 
-		<person id="555928.1#7278" sex="m" age="40" employed="no">
+	<person id="555928.1#7278" sex="m" age="40" employed="no">
 		<plan selected="yes">
 			<act type="home" x="366.0" y="52.0" start_time="00:00:00" dur="08:06:25" end_time="08:06:25" />
 			<leg mode="car" dep_time="08:06:25" trav_time="00:10:00" arr_time="08:16:25">

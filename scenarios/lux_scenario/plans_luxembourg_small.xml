@@ -1,62 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE population SYSTEM "C:\Users\federico.bigi\Desktop\MaaS\exa-matsim-carsharing\src\main\resources\dtd\population_v6.dtd">
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd">
 
-<population>
+<plans>
 
 
-<person age="26" car_avail="always" employed="yes" id="23021995" income="400" license="yes" sex="m" vot="3.35">
-		<plan score="0" selected="yes">
-			<activity end_time="09:00:00" link="61314" type="h" x="63813.4071" y="63305.80386">
-			</activity>
-			<leg dep_time="09:00:00" mode="walk" trav_time="00:05:18">
-				<route distance="150" end_link="51637" start_link="61314" trav_time="00:05:18" type="generic"/>
+	<person id="23021995" sex="m" age="26" employed="yes">
+		<plan selected="yes">
+			<act type="h" x="63813.4071" y="63305.80386" start_time="00:00:00" dur="09:00:00" end_time="09:00:00" />
+			<leg mode="walk" dep_time="09:00:00" trav_time="00:05:18" arr_time="09:05:18">
 			</leg>
-			<activity end_time="17:54:00" link="51637" type="w" x="63918.38879166799" y="63266.233702522775">
-			</activity>
-			<leg dep_time="17:54:00" mode="walk" trav_time="00:05:18">
-				<route distance="150" end_link="61314" start_link="51637" trav_time="00:05:18" type="generic"/>
+			<act type="w" x="63918.38879166799" y="63266.233702522775" start_time="09:05:18" end_time="17:54:00" />
+			<leg mode="walk" dep_time="17:54:00" trav_time="00:05:18" arr_time="17:59:18">
 			</leg>
-			<activity link="61314" type="h" x="63813.4071" y="63305.80386">
-			</activity>
+			<act type="home" x="63813.4071" y="63305.80386" start_time="17:59:18" />
 		</plan>
+
 	</person>
 
-<person age="26" car_avail="always" employed="yes" id="28011995" income="400" license="yes" sex="m" vot="3.35">
-		<plan score="0" selected="yes">
-			<activity end_time="08:00:00" link="61314" type="h" x="63813.4071" y="63305.80386">
-			</activity>
-			<leg dep_time="08:00:00" mode="walk" trav_time="00:04:00">
-				<route distance="350" end_link="8788" start_link="61314" trav_time="00:04:00" type="generic"/>
+<!-- ====================================================================== -->
+	<person id="28011995" sex="m" age="26" employed="yes">
+		<plan selected="yes">
+			<act type="h" x="63813.4071" y="63305.80386" start_time="00:00:00" dur="08:00:00" end_time="08:00:00" />
+			<leg mode="walk" dep_time="08:00:00" trav_time="00:04:00" arr_time="08:04:00">
 			</leg>
-			<activity end_time="09:00:00" link="8788" type="other" x="63666.16342418356" y="63165.52384944922">
-			</activity>
-			<leg dep_time="09:00:00" mode="walk" trav_time="00:07:00">
-				<route distance="600" end_link="51637" start_link="8788" trav_time="00:07:00" type="generic"/>
+			<act type="other" x="63666.16342418356" y="63165.52384944922" start_time="08:04:00" end_time="09:00:00" />
+			<leg mode="walk" dep_time="09:00:00" trav_time="00:07:00" arr_time="09:07:00">
 			</leg>
-			<activity end_time="18:00:00" link="51637" type="w" x="63918.38879166799" y="63266.233702522775">
-			</activity>
-			<leg dep_time="18:00:00" mode="walk" trav_time="00:05:00">
-				<route distance="150" end_link="61314" start_link="51637" trav_time="00:05:18" type="generic"/>
+			<act type="w" x="63918.38879166799" y="63266.233702522775" start_time="09:07:00" end_time="17:54:00" />
+			<leg mode="walk" dep_time="17:54:00" trav_time="00:05:18" arr_time="17:59:18">
 			</leg>
-			<activity link="61314" type="h" x="63813.4071" y="63305.80386">
-			</activity>
+			<act type="home" x="63813.4071" y="63305.80386" start_time="17:59:18" />
 		</plan>
-	</person>
 
-<person age="33" car_avail="always" employed="yes" id="24041988" income="0" license="yes" sex="m" vot="0.13">
-		<plan score="0" selected="yes">
-			<activity end_time="08:45:00" link="29307" type="h" x="66447.87972812584" y="63267.204154208404">
-			</activity>
-			<leg dep_time="08:45:00" mode="car" trav_time="00:08:05">
-				<route distance="3500" end_link="50224" start_link="29307" trav_time="00:08:05" type="generic"/>
-			</leg>
-			<activity end_time="19:00:00" link="50224" type="w" x="63906.76979925245" y="63270.85012345236">
-			</activity>
-			<leg dep_time="19:00:00" mode="car" trav_time="00:08:05">
-				<route distance="3500" end_link="29307" start_link="50224" trav_time="00:08:05" type="generic"/>
-			</leg>
-			<activity link="29307" type="h" x="66447.87972812584" y="63267.204154208404">
-			</activity>
-		</plan>
 	</person>
-</population>
+	
+<!-- ====================================================================== -->
+	<person id="24041988" sex="m" age="33" employed="yes">
+		<plan selected="yes">
+			<act type="h" x="66447.87972812584" y="63267.204154208404" start_time="00:00:00" dur="08:45:00" end_time="08:45:00" />
+			<leg mode="car" dep_time="08:45:00" trav_time="00:08:05" arr_time="08:53:05">
+			</leg>
+			<act type="w" x="63918.38879166799" y="63266.233702522775" start_time="08:53:05" end_time="19:00:00" />
+			<leg mode="car" dep_time="19:00:00" trav_time="00:08:05" arr_time="19:08:05">
+			</leg>
+			<act type="home"  x="66447.87972812584" y="63267.204154208404" start_time="19:08:05" />
+		</plan>
+
+	</person>	
+
+</plans>
